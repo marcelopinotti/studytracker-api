@@ -53,5 +53,4 @@ O objetivo do StudyTracker é ser um projeto vivo, que:
 - sirva também como espaço para evolução contínua em lógica, organização e boas práticas de desenvolvimento.
 
 É um projeto que cresce junto com quem está construindo e usando. 😊
-# studytracker-api
-# studytracker-api
+
