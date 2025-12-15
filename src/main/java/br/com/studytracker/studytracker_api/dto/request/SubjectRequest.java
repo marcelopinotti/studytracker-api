@@ -1,4 +1,4 @@
-package br.com.studytracker.studytracker_api.dto.subject;
+package br.com.studytracker.studytracker_api.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

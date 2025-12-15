@@ -1,5 +1,6 @@
 package br.com.studytracker.studytracker_api.dto.studysession;
 
+import br.com.studytracker.studytracker_api.domain.enums.SessionType;
 import lombok.Builder;
 import lombok.Data;
 
@@ -12,6 +13,6 @@ public class StudySessionResponse {
     private Long id;
     private LocalDate date;
     private int durationMinutes;
-    private String type;
+    private SessionType type;
     private String subjectName;
 }

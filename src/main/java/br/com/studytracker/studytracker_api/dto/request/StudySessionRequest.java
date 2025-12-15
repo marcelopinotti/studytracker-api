@@ -1,4 +1,4 @@
-package br.com.studytracker.studytracker_api.dto.studysession;
+package br.com.studytracker.studytracker_api.dto.request;
 
 import br.com.studytracker.studytracker_api.domain.enums.SessionType;
 import jakarta.validation.constraints.Min;
@@ -8,7 +8,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-public class CreatStudySessionRequest {
+public class CreateStudySessionRequest {
     @NotNull
     private LocalDate date;
 
