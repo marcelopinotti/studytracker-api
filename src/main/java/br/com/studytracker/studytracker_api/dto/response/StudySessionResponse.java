@@ -1,4 +1,4 @@
-package br.com.studytracker.studytracker_api.dto.studysession;
+package br.com.studytracker.studytracker_api.dto.response;
 
 import br.com.studytracker.studytracker_api.domain.enums.SessionType;
 import lombok.Builder;
