@@ -12,12 +12,12 @@ public class StudySessionRequest {
     @NotNull
     private LocalDate date;
 
-    @Min(1)
+    @Min(value = 1,message = "A duração deve ser no mínimo 1 minuto.")
     private int durationMinutes;
 
     @NotNull
     private Long subjectId;
 
     @NotNull
-    private SessionType type; // TODO: depois validar melhor
+    private SessionType type;
 }
